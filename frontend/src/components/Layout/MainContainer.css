@@ -1,0 +1,30 @@
+.jg-main-container-wrapper {
+}
+
+.jg-main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.jg-main-container__timer {
+	display: flex;
+	flex-direction: column;
+	align-items: cetner;
+}
+
+.jg-main-container__timer-title {
+	font-family: 'yg-jalnan';
+	text-align: center;
+}
+
+.jg-main-container__timer-clock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.jg-main-container__todos {
+	margin-top: 48px;
+	width: 576px;
+}

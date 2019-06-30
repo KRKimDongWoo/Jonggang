@@ -1,0 +1,46 @@
+.jg-digitalclock-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.jg-digitalclock-items {
+	display: flex;
+	align-items: center;
+}
+
+.jg-digitalclock-items__numbers {
+	margin: 0 2px;
+	height: 64px;
+	width: 48px;
+
+	background: linear-gradient(135deg, rgba(133,195,207,0), rgba(133, 195, 207, 1));
+	border-radius: 8px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.jg-digitalclock-items__numbers p {
+	font-family: 'S-CoreDream-2ExtraLight';
+	margin: 0;
+}
+
+.jg-digitalclock-items__types {
+	font-size: 32px;
+	font-weight: 600;
+	margin-right: 8px;
+}
+
+.jg-digitalclock-items__types p {
+	font-family: 'yg-jalnan';
+	margin: 0;
+}
+
+.jg-digitalclock-items__spacer {
+	width: 24px;
+}
+
