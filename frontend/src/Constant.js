@@ -1,0 +1,51 @@
+/* Constants for Authentication */
+
+	/* Register */
+export const REGISTER_TRY = "REGISTER_TRY"
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS"
+export const REGISTER_FAILED = "REGISTER_FAILED"
+
+	/* Login */
+export const LOGIN_TRY = "LOGIN_TRY"
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS"
+export const LOGIN_AUTH_ERR = "LOGIN_AUTH_ERR"
+export const LOGIN_FAILED = "LOGIN_FAILED"
+
+	/* Logout */
+export const LOGOUT_TRY = "LOGOUT_TRY"
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS"
+export const LOGOUT_FAILED = "LOGOUT_FAILED"
+
+	/* Retrieve */
+export const RETRIEVE_TRY = "RETRIEVE_TRY"
+export const RETRIEVE_SUCCESS = "RETRIEVE_SUCCESS"
+export const RETRIEVE_FAILED = "RETRIEVE_FAILED"
+
+
+/* Constraints for Todos */
+	/* User Todo */
+export const TODO_GET_TRY = "TODO_GET_TRY"
+export const TODO_GET_SUCCESS = "TODO_GET_SUCCESS"
+export const TODO_GET_FAILED = "TODO_GET_FAILED"
+export const TODO_POST_TRY = "TODO_POST_TRY"
+export const TODO_POST_SUCCESS = "TODO_POST_SUCCESS"
+export const TODO_POST_FAILED = "TODO_POST_FAILED"
+export const TODO_DELETE_TRY = "TODO_DELETE_TRY"
+export const TODO_DELETE_SUCCESS = "TODO_DELETE_SUCCESS"
+export const TODO_DELETE_FAILED = "TODO_DELETE_FAILED"
+export const TODO_PUT_TRY = "TODO_PUT_TRY"
+export const TODO_PUT_SUCCESS = "TODO_PUT_SUCCESS"
+export const TODO_PUT_FAILED = "TODO_PUT_FAILED"
+export const TODO_DONE_TRY = "TODO_DONE_TRY"
+export const TODO_DONE_SUCCESS = "TODO_DONE_SUCCESS"
+export const TODO_DONE_FAILED = "TODO_DONE_FAILED"
+
+	/* Recommend Todo */
+export const RECOMMEND_GET_TRY = "RECOMMEND_GET_TRY"
+export const RECOMMEND_GET_SUCCESS = "RECOMMEND_GET_SUCCESS"
+export const RECOMMEND_GET_FAILED = "RECOMMEND_GET_FAILED"
+
+	/* Course List */
+export const COURSE_SEARCH_TRY = "COURSE_SEARCH_TRY"
+export const COURSE_SEARCH_SUCCESS = "COURSE_SEARCH_SUCCESS"
+export const COURSE_SEARCH_FAILED = "COURSE_SEARCH_FAILED"
